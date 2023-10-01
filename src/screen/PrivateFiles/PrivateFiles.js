@@ -10,7 +10,7 @@ import {SpaceBetween} from "@cloudscape-design/components";
 export default function PrivateFiles(props) {
 
     useEffect(() => {
-        console.log('Main props', props);
+        console.log('Private Files props', props);
     },[]);
 
 
