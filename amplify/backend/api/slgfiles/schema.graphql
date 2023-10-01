@@ -7,3 +7,15 @@ type Todo @model {
   name: String!
   description: String
 }
+
+type Pisuc @model {
+  id: ID!
+  pisuc: String!
+  currency: String!
+  country: String!
+  instrumentClass: String!
+  instrumentType: String!
+  instrumentDates: String!
+  instrumentProps: String!
+  createDate: String!
+}
