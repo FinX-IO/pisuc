@@ -1,4 +1,5 @@
 import {withAuthenticator} from '@aws-amplify/ui-react';
+
 import '@aws-amplify/ui-react/styles.css';
 
 import { Amplify, Auth } from 'aws-amplify';
