@@ -4,9 +4,9 @@ import { schema } from './schema';
 
 
 
-const { Todo } = initSchema(schema);
-const { Pisuc } = initSchema(schema);
+const { Todo, Pisuc } = initSchema(schema);
 
 export {
-  Todo, Pisuc
+  Todo,
+  Pisuc
 };
