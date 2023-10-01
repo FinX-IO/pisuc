@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import FilesAppLayout from "../../components/FilesAppLayout/FilesAppLayout";
 import "@cloudscape-design/global-styles/index.css"
 
@@ -8,6 +8,11 @@ import UploadFileCard from "../../components/UploadFileCard/UploadFileCard";
 import {SpaceBetween} from "@cloudscape-design/components";
 
 export default function PrivateFiles(props) {
+
+    useEffect(() => {
+        console.log('Main props', props);
+    },[]);
+
 
     return (
         <>

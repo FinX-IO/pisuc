@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import AppBar from "../../components/AppBar/AppBar";
 import PrivateFiles from "../PrivateFiles/PrivateFiles";
 import "@cloudscape-design/global-styles/index.css"
@@ -9,6 +9,10 @@ import UploadFileCard from "../../components/UploadFileCard/UploadFileCard";
 import {SpaceBetween} from "@cloudscape-design/components";
 
 export default function Main(props) {
+
+    useEffect(() => {
+        console.log('Main props', props);
+    },[]);
 
     return (
         <>
