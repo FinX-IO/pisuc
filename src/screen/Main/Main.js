@@ -18,6 +18,7 @@ export default function Main(props) {
         <>
             <AppBar/>
             <PrivateFiles
+                level={props.level}
                 breadcrumbs={defaultBreadcrumbs}
                 title={props.level == 'private' ? "My private files" : "All public files"}
             />
