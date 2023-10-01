@@ -2,13 +2,15 @@
   "resourceName": "slgfiles",
   "policyUUID": "45b50b70",
   "bucketName": "slgfiles-content-s3",
-  "storageAccess": "auth",
-  "guestAccess": [],
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
   "authAccess": [
     "CREATE_AND_UPDATE",
     "READ",
     "DELETE"
   ],
-  "triggerFunction": "NONE",
+  "triggerFunction": "S3Triggerf4e47468",
   "groupAccess": {}
 }

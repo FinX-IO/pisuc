@@ -45,7 +45,13 @@
       "service": "Cognito"
     }
   },
-  "function": {},
+  "function": {
+    "S3Triggerf4e47468": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
   "hosting": {
     "amplifyhosting": {
       "providerPlugin": "awscloudformation",
@@ -86,7 +92,17 @@
   },
   "storage": {
     "slgfiles": {
-      "dependsOn": [],
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn",
+            "LambdaExecutionRole"
+          ],
+          "category": "function",
+          "resourceName": "S3Triggerf4e47468"
+        }
+      ],
       "providerPlugin": "awscloudformation",
       "service": "S3"
     }
