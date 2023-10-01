@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 import FilesAppLayout from "../../components/FilesAppLayout/FilesAppLayout";
 import "@cloudscape-design/global-styles/index.css"
+import '@aws-amplify/ui-react/styles.css';
 
 import {defaultBreadcrumbs} from "../../components/breadcrumbs-items";
 import TableListFiles from "../../components/TableListFiles/TableListFiles";

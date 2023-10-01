@@ -5,7 +5,8 @@ import { schema } from './schema';
 
 
 const { Todo } = initSchema(schema);
+const { Pisuc } = initSchema(schema);
 
 export {
-  Todo
+  Todo, Pisuc
 };

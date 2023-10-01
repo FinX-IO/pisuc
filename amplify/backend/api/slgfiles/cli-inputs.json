@@ -20,7 +20,7 @@
         },
         {
           "resolutionStrategy": {
-            "type": "OPTIMISTIC_CONCURRENCY"
+            "type": "AUTOMERGE"
           },
           "entityName": "Pisuc"
         }

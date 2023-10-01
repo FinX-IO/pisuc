@@ -1,6 +1,72 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
+export const createPisuc = /* GraphQL */ `
+  mutation CreatePisuc(
+    $input: CreatePisucInput!
+    $condition: ModelPisucConditionInput
+  ) {
+    createPisuc(input: $input, condition: $condition) {
+      id
+      pisuc
+      currency
+      country
+      instrumentClass
+      instrumentType
+      instrumentDates
+      instrumentProps
+      createDate
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+  }`;
+
+export const updatePisuc = /* GraphQL */ `
+  mutation UpdatePisuc(
+    $input: UpdatePisucInput!
+    $condition: ModelPisucConditionInput
+  ) {
+    updatePisuc(input: $input, condition: $condition) {
+      id
+      pisuc
+      currency
+      country
+      instrumentClass
+      instrumentType
+      instrumentDates
+      instrumentProps
+      createDate
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+  }`;
+  
+export const deletePisuc = /* GraphQL */ `
+  mutation DeletePisuc(
+    $input: DeletePisucInput!
+    $condition: ModelPisucConditionInput
+  ) {
+    deletePisuc(input: $input, condition: $condition) {
+      id
+      pisuc
+      currency
+      country
+      instrumentClass
+      instrumentType
+      instrumentDates
+      instrumentProps
+      createDate
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+  }`;
+  
 export const createTodo = /* GraphQL */ `
   mutation CreateTodo(
     $input: CreateTodoInput!

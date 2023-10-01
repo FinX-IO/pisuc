@@ -49,7 +49,76 @@ export const schema = {
                     "properties": {}
                 }
             ]
-        }
+        },
+        "Pisuc": {
+            "name": "Pisuc",
+            "fields": {
+                "id": {
+                    "name": "id",
+                    "isArray": false,
+                    "type": "ID",
+                    "isRequired": true,
+                    "attributes": []
+                    },
+                "pisuc": {
+                    "name": "pisuc",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                    },
+                "currency": {
+                    "name": "currency",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                    },
+                "country": {
+                    "name": "country",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                    },
+                "instrumentClass": {
+                    "name": "instrumentClass",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                    
+                },
+                "instrumentType": {                    
+                    "name": "instrumentType",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                    },
+                "instrumentDates": {
+                    "name": "instrumentDates",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                    },
+                "instrumentProps": {                    
+                    "name": "instrumentProps",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                    },
+                "createDate": {                    
+                    "name": "createDate",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                    },                
+                }
+            }
     },
     "enums": {},
     "nonModels": {},

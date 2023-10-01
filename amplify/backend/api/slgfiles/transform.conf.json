@@ -12,7 +12,7 @@
                 "ConflictDetection": "VERSION"
             },
             "Pisuc": {
-                "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+                "ConflictHandler": "AUTOMERGE",
                 "ConflictDetection": "VERSION"
             }
         }
