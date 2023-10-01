@@ -203,31 +203,31 @@ function UploadFileCard(props) {
                                     <FormField label="Key values">
                                         <Input
                                             disabled
-                                            value={identify == undefined ? "" : identify.text.keyValues.length}
+                                            value={identify === undefined ? "" : identify.text.keyValues.length}
                                         />
                                     </FormField>
                                     <FormField label="Lines">
                                         <Input
                                             disabled
-                                            value={identify == undefined ? "" : identify.text.lines.length}
+                                            value={identify === undefined ? "" : identify.text.lines.length}
                                         />
                                     </FormField>
                                     <FormField label="Selections">
                                         <Input
                                             disabled
-                                            value={(identify == undefined || identify.text.selections == undefined) ? "" : identify.text.selections.length}
+                                            value={(identify === undefined || identify.text.selections == undefined) ? "" : identify.text.selections.length}
                                         />
                                     </FormField>
                                     <FormField label="Tables">
                                         <Input
                                             disabled
-                                            value={(identify == undefined || identify.text.tables == undefined) ? "" : identify.text.tables.length}
+                                            value={(identify === undefined || identify.text.tables == undefined) ? "" : identify.text.tables.length}
                                         />
                                     </FormField>
                                     <FormField label="Words">
                                         <Input
                                             disabled
-                                            value={identify == undefined ? "" : identify.text.words.length}
+                                            value={identify === undefined ? "" : identify.text.words.length}
                                         />
                                     </FormField>
 
