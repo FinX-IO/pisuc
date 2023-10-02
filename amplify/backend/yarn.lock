@@ -727,9 +727,9 @@
   integrity sha512-RbSSoHliUbnXj3ny0CNFOoxrIDV6SUGyStHsvDqosw6CkdPV8TtWGlfecuK4ToyMEAql6pzNxgCFKanovUzlgQ==
 
 "@types/node@^16.9.2":
-  version "16.18.55"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.55.tgz#3d9ac633ed401238c13ccaeed54297bd653412a3"
-  integrity sha512-Y1zz/LIuJek01+hlPNzzXQhmq/Z2BCP96j18MSXC0S0jSu/IG4FFxmBs7W4/lI2vPJ7foVfEB0hUVtnOjnCiTg==
+  version "16.18.56"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.56.tgz#a832bc19d7bd1ed6c830325b02f1688a89dd8216"
+  integrity sha512-QghPNEY/qYeP5YuCPIE1bVMFiPBSjFCCoX5cjmNtFIdbKeuzboupgjz05mA4C6SXHyRLLTlQ3pbRIfnLqwaekA==
 
 "@types/triple-beam@^1.3.2":
   version "1.3.3"
