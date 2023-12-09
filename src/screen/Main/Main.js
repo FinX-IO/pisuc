@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 import AppBar from "../../components/AppBar/AppBar";
+import NavBar from "../../ui-components/NavBar";
 import PrivateFiles from "../PrivateFiles/PrivateFiles";
 import "@cloudscape-design/global-styles/index.css"
 
@@ -14,6 +15,7 @@ export default function Main(props) {
     return (
         <>
             <AppBar/>
+            <NavBar/>
             <PrivateFiles
                 level={props.level}
                 breadcrumbs={defaultBreadcrumbs}
